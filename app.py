@@ -12,4 +12,9 @@ def hello():
     return "This is a hello statement -- no purpose"
 
 
+@app.route('/basic')
+def basic():
+    return render_template(template.html)
+
+
 
